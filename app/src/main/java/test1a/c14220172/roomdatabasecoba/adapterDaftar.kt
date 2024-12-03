@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.ListView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
@@ -67,8 +68,8 @@ class adapterDaftar(private val daftarBelanja : MutableList<daftarBelanja>):
             var _tvJumlahBarang = itemView.findViewById<TextView>(R.id.tv_jumlahBarang)
             var _tvTanggal = itemView.findViewById<TextView>(R.id.tv_tanggal)
 
-            var _btnEdit = itemView.findViewById<Button>(R.id.btn_edit)
-            var _btnDelete = itemView.findViewById<Button>(R.id.btn_delete)
+            var _btnEdit = itemView.findViewById<ImageView>(R.id.btn_edit)
+            var _btnDelete = itemView.findViewById<ImageView>(R.id.btn_delete)
 
         }
 
